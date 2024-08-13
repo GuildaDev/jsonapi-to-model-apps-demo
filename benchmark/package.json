@@ -1,0 +1,15 @@
+{
+  "name": "benchmark",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npx tsx ./src/main.ts"
+  },
+  "devDependencies": {
+    "@guildadev/jsonapi-to-model": "1.0.2",
+    "deserialize-json-api": "2.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}

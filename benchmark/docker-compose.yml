@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: my-tsx-app-container
+    image: my-tsx-app
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 128M
+    command: ["yarn", "start"]

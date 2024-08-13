@@ -1,0 +1,22 @@
+====================
+
+
+
+Start benchmark with Deserialize
+Deserialization time: 70ms
+Item title: Gorgeous Granite Car
+Total time: 70ms
+get photos in included: 0ms
+Photos ids: 10877
+Deserialization Benchmark finished
+====================
+
+
+
+Model: 1000 items
+Model time: 0ms
+Item title: Gorgeous Granite Car
+Total time: 0ms
+get photos in included: 1ms
+Photos ids: 10877
+Model Benchmark finished
