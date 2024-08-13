@@ -1,6 +1,6 @@
 import { useUserQuery } from "@/provider/useUserQuery";
 
-export function Hello() {
+export default function Hello() {
     const { data: user, isLoading } = useUserQuery();
   
     if (isLoading) {

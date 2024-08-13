@@ -3,9 +3,10 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { AppProvider } from "@/provider/app-provider";
-import { Hello } from "@/modules/Hello/Hello";
+import dynamic from "next/dynamic";
 
 const inter = Inter({ subsets: ["latin"] });
+const Hello = dynamic(() => import("@/modules/Hello/Hello"), { ssr: false });
 
 export default function Home() {
   return (
